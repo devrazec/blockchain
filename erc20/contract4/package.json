@@ -1,0 +1,21 @@
+{
+  "name": "contract4",
+  "version": "1.0.0",
+  "description": "ERC20 Token Contract with OpenZeppelin 4.5.0 and Solidity 0.8.0",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate"
+  },
+  "author": "Cezar Souza <maxchip@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devrazec/blockchain.git"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@openzeppelin/contracts": "4.5.0",
+    "solc": "0.8.0",
+    "truffle": "5.1.59"
+  }
+}
